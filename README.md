@@ -1,34 +1,89 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center" id="top"> 
+  <img src="./public/cover.png" alt="Ignite Shop" />
 
-## Getting Started
+  &#xa0;
 
-First, run the development server:
+  <!-- <a href="https://ignite-timer.netlify.com">Demo</a> -->
+</div>
+
+<h1 align="center">Ignite Shop</h1>
+
+
+<!-- Status -->
+
+<!-- <h4 align="center"> 
+	🚧  Ignite Shop 🚀 Em construção...  🚧
+</h4> 
+<hr> -->
+
+<p align="center">
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
+  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-pré-requesitos">Pré requisitos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-começando">Começando</a> &#xa0; | &#xa0;
+  <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
+  <a href="https://github.com/aleilson" target="_blank">Autor</a>
+</p>
+
+<br>
+
+## :dart: Sobre ##
+
+Ignite shop é uma vitrine virtual dos produtos cadastrados no Stripe com a funcionalidade de compra.
+
+## :sparkles: Funcionalidades ##
+
+:heavy_check_mark: Listagem de produtos cadastrado no Stripe.
+
+:heavy_check_mark: Keen-slider para arrossel.
+
+:heavy_check_mark: Stripe para pagamentos.
+
+## :rocket: Tecnologias ##
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [stitches/react](https://stitches.dev/)
+
+
+## :white_check_mark: Pré requisitos ##
+
+Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.com) e o [Node](https://nodejs.org/en/) instalados em sua maquina.
+
+## :checkered_flag: Começando ##
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone este repositório
+$ git clone https://github.com/aleilson/ignite-shop-nextjs
+# Entre na pasta
+$ cd ignite-shop-nextjs
+# Instale as dependências
+$ npm install
+# Para iniciar o projeto
+$ npm run dev
+# O app vai inicializar em <http://localhost:3000>
+
+# Chaves do Stripe a ser preenchidas no .env.local
+
+# App
+NEXT_URL=http://localhost:3000
+
+# Stripe
+STRIPE_PUBLICK_KEY=
+STRIPE_SECRET_KEY=
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## :memo: Licença ##
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Este projeto está sob licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Feito com :heart: por <a href="https://github.com/aleilson" target="_blank">aleilson</a>
 
-## Learn More
+&#xa0;
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<a href="#top">Voltar para o topo</a>
