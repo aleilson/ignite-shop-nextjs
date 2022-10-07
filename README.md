@@ -36,7 +36,7 @@ Ignite shop é uma vitrine virtual dos produtos cadastrados no Stripe com a func
 
 :heavy_check_mark: Listagem de produtos cadastrado no Stripe.
 
-:heavy_check_mark: Keen-slider para arrossel.
+:heavy_check_mark: Keen-slider para carrossel.
 
 :heavy_check_mark: Stripe para pagamentos.
 
